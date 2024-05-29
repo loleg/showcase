@@ -1,15 +1,14 @@
 {
-  "title": "DataHub Cloud Template",
-  "description": "You can use this template repository to bootstrap your own DataHub Cloud site.",
-  "logo": "https://datahub.io/datahub-cube.svg",
+  "title": "Community Showcase 2024",
+  "description": "Archive of Dribdat projects",
+  "logo": "https://dribdat.cc/images/logo12.png",
   "navbarTitle": {
-    "logo": "https://datahub.io/datahub-cube.svg",
-    "text": "DataHub Cloud Site Template"
+    "logo": "https://dribdat.cc/images/logo12.png",
+    "text": "Dribdat x DataHub"
   },
   "author": {
-    "name": "DataHub",
-    "url": "https://datahub.io/",
-    "logo": "https://datahub.io/datahub-cube.svg"
+    "name": "Oleg Lavrovsky",
+    "url": "https://alets.ch/"
   },
   "navLinks": [
     { "href": "/docs", "name": "Docs" }

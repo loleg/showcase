@@ -1,0 +1,406 @@
+"id","ident","url","name","score","phase","team","team_count","is_challenge","is_webembed","progress","summary","hashtag","image_url","source_url","webpage_url","autotext_url","download_url","contact_url","logo_color","logo_icon","excerpt","created_at","updated_at","maintainer","event_url","event_name","category_id","category_name","stats","autotext","longtext"
+"54","","https://showcase.opendata.ch/project/54","Digitaler Helfer im Obstbau","24","Project","","0","False","True","5","Open Farming Hackdays 2024","","https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/reciprocal/1/87L1HNVNL5RUDUARNSAIOCHC/Screenshot_from_20240522_143622.png","https://github.com/emanuel-kopp/OFHD24","https://s3.dribdat.cc/ofh/f/155/2Z1G9OAX5ZOCLAAXZG2O0ION/ofhd2024_obst_small.pdf","https://hack.farming.opendata.ch/project/107","https://obsty.nemundo.ch/","https://github.com/emanuel-kopp/OFHD24/issues","","","(Digital helper in fruit growing) With the subsequent calculation of the damage threshold and date, treatment suggestions can be made against the detected pest and the corresponding crop. These indicate the optimum time, e.g. pre-flowering, with the corresponding application rate. Easy-to-understand information is provided through data visualizations, such as the amount of active ingredient and mixing tables.","2024-05-22T10:18","2024-05-22T15:38","","https://showcase.opendata.ch/event/3","Community Showcase 2024","2","Open Farming","{""total"": 4, ""updates"": 3, ""commits"": 0, ""during"": 0, ""people"": 0, ""sizepitch"": 412, ""sizetotal"": 1937}","https://vimeo.com/926588879
+
+Wir haben ein [PDF-Dokument](https://www.liebegg.ch/api/rm/P77W46JY7G8666Z/visuelle-kontrollen-zhaw-mobile-v3-3.pdf) zur Visuellen Kontrolle. Aus dieser Bonitur z.B. Frostspanner heraus, soll der [Kontrollblock](https://www.liebegg.ch/api/rm/5JS48E5X639P99P/kontrollformulare-schaedlinge-bei-aepfeln.pdf) ausgefüllt werden.
+Mit der anschliessenden Berechnung der [Schadschwelle](https://www.liebegg.ch/api/rm/8T4A6624593F25Z/pflanzenschutzempfehlungen-erwerbsobstbau-2024-202-6.pdf) und Datum soll, gegen den festgestellten Schädling und die entsprechende Kultur [Behandlungsvorschläge](https://www.liebegg.ch/api/rm/9N24J6U5R6ECZ7J/psmbulletin-01-2024-mittelland-def-2.pdf) gemacht werden. Diese sollen den Optimalen Zeitpunkt z.B. [Vorblüte]() mit der entsprechenden Aufwandmenge angegeben werden. Dazu leicht verständlich z.B. Bienentox und weitere Auflagen, am besten in leicht verständlichen Pictogrammen mit Hinweisen zur Wirkstoffmenge (ggf. aufsummiert), Wirkstoffkombi und [Mischtabellen](https://www.openagrar.de/servlets/MCRFileNodeServlet/openagrar_derivate_00004872/merkblatt_007_auflage_3_1956.pdf)
+Voll und Teil, Nebenwirkung, Bio & IP. Durch die Verknüpfung mit dem [Spritzmittelrechner](https://itunes.apple.com/ch/app/spritzmittelrechner/id807436180?l=de&ls=1&mt=8), sollen Parzelle (Laubwand und Fläche) PSMittel, Name, W-Nr, Menge und Datum vor Generierung einer automatischen Email der vorgenommenen Behandlung zur Eintragung in PS-Dokumentation","(Digital helper in fruit growing) With the subsequent calculation of the damage threshold and date, treatment suggestions can be made against the detected pest and the corresponding crop. These indicate the optimum time, e.g. pre-flowering, with the corresponding application rate. Easy-to-understand information is provided through data visualizations, such as the amount of active ingredient and mixing tables."
+"56","","https://showcase.opendata.ch/project/56","Legal Prompt Builder","23","Project","","0","False","True","5","Open Legal Lab 2024","","https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/reciprocal/1/694PYT4SZRB4OIX62GRGGWRD/Screenshot_from_20240522_174109.png","https://github.com/jan-nicklaus/LegalPrompts-CH","https://s3.dribdat.cc/oll/b/164/0DW0CK2RJ3OHA3QJKRPPG62Q/Legal_Prompt_Builder_nn.pdf","https://challenges.openlegallab.ch/project/98","https://bgpg.raxal.io","https://linkedin.com/in/jan-nicklaus","","","Let's help lawyers create the best possible prompts to increase their productivity with good answers from LLMs.","2024-05-22T15:41","2024-05-23T20:53","","https://showcase.opendata.ch/event/3","Community Showcase 2024","5","Open Legal","{""total"": 3, ""updates"": 2, ""commits"": 0, ""during"": 0, ""people"": 0, ""sizepitch"": 111, ""sizetotal"": 2581}","# LegalPrompts - Prompt Builder für Juristinnen und Juristen
+
+## Was ist das Problem?
+
+Grosse Sprachmodelle wie ChatGPT erobern die Arbeitswelt. Es gibt inzwischen zahlreiche Modelle mit unterschiedlichen Vor- und Nachteilen. Dazu gehören:
+
+* Kann das Modell im Internet nach aktuellen Daten suchen oder ist es auf seine Trainingsdaten beschränkt?
+* Kontextlänge: Wie viele Wörter kann ich in die Anfrage eingeben?
+* Sprachfähigkeiten: Wie gut performt das Modell in anderen Sprachen als Englisch?
+
+Es ist schwierig, hier den Überblick zu behalten und die Anfragen dem jeweiligen Modell anzupassen. Aber auch ganz generell helfen Sprachmodelle bei einfachen Anfragen wie «Fasse mir BGE 149 V 57 zusammen» kaum weiter, weil die Antworten oft nicht die relevanten Aspekte aufgreifen oder sogar Erwägungen und Sachverhalte erfinden (sog. Halluzinationen).
+
+## Wie hilft ein Prompt Builder?
+
+Zu der Frage, wie man eine Anfrage an ein Sprachmodell formuliert, um eine bestmögliche Antwort zu erhalten, gibt es bereits viele Leitfäden, wissenschaftliche Dossiers und Seminare. Für Juristinnen und Juristen wäre es jedoch ein erheblicher Aufwand, sich die Kunst des «Prompt Engineering» von Grund auf anzueignen. Hinzu kommt, dass der Prompt in jedem Einzelfall formuliert werden und zusammengesetzt, ggf. auch Dokumente in den Prompt kopiert werden müsste. Diese Arbeit kann stark vereinfacht werden durch einen Prompt Builder, also ein Tool, das den User an die Hand nimmt, anhand von Fragen wichtige Bestandteile des Prompts ermittelt und einen Prompt zusammensetzt. Ausserdem kann der Prompt Builder den Prompt auf die Anforderungen einzelner Sprachmodelle zuschneiden, beispielsweise darauf hinweisen, dass das frei verfügbare ChatGPT 3.5 keinen Links folgen kann. Mit Quality of Life Features wie der automatischen Einbindung von Entscheiden kann ein auf das Schweizer Recht zugeschnittener Prompt Builder viel Zeit sparen und erlaubt es Juristinnen und Juristen, sich auf ihre eigentliche Arbeit zu konzentrieren.
+
+## Wer kann bei der Challenge mitwirken?
+
+Alle Teilnehmenden sind herzlich eingeladen. Gerade Juristinnen und Juristen können hier sehr weiterhelfen, weil das Tool die in der Praxis tatsächlich anfallenden Aufgaben lösen soll. Die technische Umsetzung soll in JavaScript und ggf. Python erfolgen.
+
+## Weitere Informationen
+
+https://github.com/jan-nicklaus/LegalPrompts-CH
+Nachfragen gern auf GitHub oder LinkedIn!","Let's help lawyers create the best possible prompts to increase their productivity with good answers from LLMs."
+"53","","https://showcase.opendata.ch/project/53","Lebensmittel Label Creator","23","Project","","0","False","True","5","Open Farming Hackdays 2024","","https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/reciprocal/1/58DB4V4BJ3Q5O5L7SWB0RUJ2/Screenshot_from_20240522_144137.png","https://github.com/bar9/open-farming-hackdays-label-creator","https://s3.dribdat.cc/ofh/f/122/524RQ3TXGX6MQYU5K8YSSNG4/2024_CHALLENGE_LebensmittelkennzeichnungsCreator__Ergebnis.pdf","https://hack.farming.opendata.ch/project/111","https://jarheadcore.github.io/open-farming-hackdays-label-creator/","https://hack.farming.opendata.ch/project/111","","","Food Label Creator: until now, anyone who was overwhelmed with labelling had to resort to paid consultations or labelled on ‘good luck’ and had a bad feeling during food inspections. Correct labelling was often missing at promotions, such as Christmas sales by school classes. This could change with a simple tool that we developed.","2024-05-22T10:16","2024-05-22T12:45","","https://showcase.opendata.ch/event/3","Community Showcase 2024","2","Open Farming","{""total"": 3, ""updates"": 2, ""commits"": 0, ""during"": 0, ""people"": 0, ""sizepitch"": 332, ""sizetotal"": 7338}","Wir erarbeiten anhand ausgewählter Produkte einen Prototypen für eine Webapplikation. Diese ermöglicht die Kennzeichnung Step-by-Step ohne gravierende Lücken und Fehler zu erstellen. Die Applikation besteht aus einer Eingabemaske mit Drop-Down-Menüs oder mit leeren Eingabefeldern. Zusätzlich werden bei leeren Feldern Informationen und Links geliefert. Sie helfen beim korrekten Ausfüllen.
+
+Diese Applikation ist kostengünstig. Denn wer bis jetzt mit der Kennzeichnung überfordert war, musste auf kostenpflichtige Beratungen zurückgreifen oder machte auf ""gut Glück"" eine Kennzeichnung und hatte bei Lebensmittelkontrollen ein schlechtes Gefühl.
+Bei Standaktionen, wie Weihnachtsverkäufe von Schulklassen, fehlte die korrekte Kennzeichnung oft. Mit einem einfachen Tool könnte sich das ändern.
+
+- [Schweizer Nahrwertdatenbank bereinigt Allergen ergänzt.csv](https://s3.dribdat.cc/ofh/f/122/P3GFKI0QI5VAA8P75VQXGO95/Schweizer_Nahrwertdatenbank_bereinigt_Allergen_erg%C3%A4nzt.csv)
+
+![Joghurt klein.jpg](https://s3.dribdat.cc/ofh/f/25/ODZ994I8FAA06F038TV4P4DQ/Joghurt_klein.jpg)![Arbeiten klein.jpg](https://s3.dribdat.cc/ofh/f/25/I7XJHLNQ2NZTQ6BRAAIKG2TA/Arbeiten_klein.jpg)Lösung
+
+# Challenge
+
+Mit Leib und Seele stellen Direktvermarktungsbetriebe oder kleine Manufakturen feine und immer wieder neue Regionalprodukte her. Spätestens bei der Zusammenstellung der Etikette erfahren sie dann mehr Frust als Lust.
+
+Welche Angaben müssen auf der Etikette stehen? In welcher Reihenfolge sollen Zutaten aufgeführt sein? Was sind Allergene? Was ist ein Detailpreis?
+Als Ausgang der Challenge soll ein Creator-Tool entstehen, in welchem bei der Eingabe diverser Angaben und der Zutaten in eine Maske ein fertiger Etikettenvorschlag entsteht. Ziel davon ist, dass keine wesentlichen Angaben vergessen gehen und korrekt gekennzeichnet wird. Die Nährwertkennzeichnung entfällt bei der handwerklichen Herstellung zur direkten Abgabe an den Konsumenten. Deshalb würde die Nährwertkennzeichnung vorerst ausgeklammert werden.
+
+**Das Problem**
+
+Wer Lebensmittel herstellt ist verpflichtet, diese korrekt herzustellen und zu kennzeichnen. Trotz einer hohen Anzahl korrekt gekennzeichneter Regionalprodukten, kommt es immer wieder zu Beanstandungen seitens des Amts für Verbraucherschutz. Eine Etikette von Dritten erstellen zulassen, ist oft zu kostspielig für kleine Produktionseinheiten. Neue kreierte Produkte sind am fehleranfälligsten und benötigen meistens in enorm kurzer Zeit eine Etikette. Daher suchen die Betriebe nach einem effizienten, einfachen Hilfsmittel.
+
+**Die Challenge**
+
+Es wird ein Tool programmiert, in welchem sich die entsprechende Lebensmittelkategorie, die Zutaten eines Produkts sowie alle anderen erforderlichen Angaben wie Preis und Produzenten-Adresse eintragen lassen.
+
+Bsp. Kategorie: Joghurt / Zutaten: Milch, Zucker, Milchpulver, Erdbeeren
+
+Im Programm hinterlegt sind die Anforderungen aufgrund der **spezifischen Verordnungen.** Bsp. Joghurt: Verordnung betreffend Lebensmittel tierischer Herkunft.
+Ebenfalls hinterlegt sind jene Anforderungen aus den **übergeordneten Verordnungen**:
+
+* LGV (Lebensmittel- und Gebrauchsgegenstände-Verordnung)
+* HyV (Hygieneverordnung)
+* LIV (Verordnung betreffend die Information über Lebensmittel)
+* Preisbekanntgabeverordnung
+
+Am Ende der Eingabe erhalten die Direktvermarktungsbetriebe einen Etikettenvorschlag, der sich noch Ergänzen /Abändern lässt, bevor die Vorlage in ein Etikettendruckprogramm eingespeist wird.
+
+**Daten / Links:**
+
+* [OpenAI](https://openai.com/) (könnte optional auch dienen)
+* [blv.admin.ch - Verordnungsstruktur_Lebensmittelrecht_2017](https://www.blv.admin.ch/dam/blv/de/dokumente/lebensmittel-und-ernaehrung/rechts-und-vollzugsgrundlagen/lebensmittelrecht2017/verordnungsstruktur-lmr.pdf.download.pdf/Verordnungsstruktur_Lebensmittelrecht_2017.pdf)
+* [blv.admin.ch - Verordnungen-lmr-namen-sr-nr](https://www.blv.admin.ch/dam/blv/de/dokumente/lebensmittel-und-ernaehrung/rechts-und-vollzugsgrundlagen/lebensmittelrecht2017/verordnungen-lmr-namen-sr-nr.pdf.download.pdf/verordnungen-lmr-namen-sr-nr.pdf)
+* [SR 942.211 - Verordnung vom 11. Dezember 1978 über die Bekanntgabe von Preisen (Preisbekanntgabeverordnung, PBV) (admin.ch)](https://www.fedlex.admin.ch/eli/cc/1978/2081_2081_2081/de)
+* [2021-blv-datierungsleitfaden.pdf](https://www.liebegg.ch/api/rm/79C67R7U7H5V5AE/2021-blv-datierungsleitfaden.pdf)
+* [mhdplus-flyer-d-def-1.pdf](https://www.liebegg.ch/api/rm/4YY4YYQS5P22399/mhdplus-flyer-d-def-1.pdf)
+* [allergene-korrekt-kennzeichnen.pdf](https://www.liebegg.ch/api/rm/8266E36ED233EJN/allergene-korrekt-kennzeichnen.pdf)
+* [merkblatt-01-kennzeichnung-eines-vorverpackten-lebensmittels.pdf](https://www.ag.ch/media/kanton-aargau/dgs/dokumente/verbraucherschutz/lebensmittelkontrolle/lebensmittelinspektorat/merkblaetter/merkblatt-01-kennzeichnung-eines-vorverpackten-lebensmittels.pdf)
+
+**Falls der Nährwert auch eingebaut werden möchte:**
+
+Es besteht bereits ein Excel basiertes Berechnungstool. Eventuell könnte dieses in das neue Tool eingebaut werden.
+
+* [Home - The Swiss Food Composition Database (naehrwertdaten.ch)](https://naehrwertdaten.ch/de/)
+* [www.naehrwertrechner.de](http://www.naehrwertrechner.de)
+* [anleitung-naehrwertrechner-1.pdf](https://www.liebegg.ch/api/rm/4YKR9JX94AJ3627/anleitung-naehrwertrechner-1.pdf)
+* [naehrwertrechner-1.xlsm](https://www.liebegg.ch/api/rm/85P8W8T944ACH5K/naehrwertrechner-1.xlsm)
+* https://www.foodrepo.org/
+
+**Mögliche Weiterentwicklung:**
+
+* API-Anbindung an eine oder mehrere Datenbanken mit Nahrungsmitteln (Rohstoffe plus allenfalls nach Rohstoffen aufgeschlüsselte verarbeitete Produkte, bspw. [Nährwertdatenbank vom BLV](https://naehrwertdaten.ch/de/downloads/) oder [CH-Version von Open Food Facts](https://ch.openfoodfacts.org/)) für Auswahl unter Zutatenliste
+* Automatisierte Berechnung der Prozentangaben von Zutaten gemäss Eingabe in Masseinheit (bspw. Gramm oder Deziliter)
+* Hinterlegte Allergenliste mit automatischer Erkennung (statt Feld, das man ankreuzen muss, falls eine Zutat als Allergen ausgewiesen werden muss)
+* Einfache Anpassung bei aktualisierten gesetzlichen Vorgaben
+* Einstellungen für nutzerspezifische Gestaltung der Etikette (Schriftart, Farbe), solange im Rahmen der Vorgaben der Lebensmittelverordnung
+
+**Was benötigen wir für die Realisierung:**
+
+* Verantwortliche Stelle für die Weiterentwicklung (Tätschmeister für inhaltliche und technische Weiterentwicklung)
+* Testpersonen, die Prototyp ausprobieren und Rückmeldung geben, ob Felder und Info-Hinweise so ""brauchbar"" sind
+* Ort fürs Hosting (aktuell github, kann auch hier weiter mit github-Actions betrieben werden)
+* Ressourcen für inhaltliche und technische Weiterentwicklung und Unterhalt (verbunden mit Punkt 1)
+
+## Prototyp
+
+[https://jarheadcore.github.io/open-farming-hackdays-label-creator](https://jarheadcore.github.io/open-farming-hackdays-label-creator/)","Food Label Creator: until now, anyone who was overwhelmed with labelling had to resort to paid consultations or labelled on ‘good luck’ and had a bad feeling during food inspections. Correct labelling was often missing at promotions, such as Christmas sales by school classes. This could change with a simple tool that we developed."
+"52","","https://showcase.opendata.ch/project/52","OptiFood-Game","23","Project","","0","False","True","5","GovTech Hackathon 2024","","https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/reciprocal/1/OC2LYQMU4GETFKV34QHMYLML/optifood.jpg","https://github.com/BLV-OSAV-USAV/GovTech-Hackathon-2024-OptiFood-Game","https://s3.dribdat.cc/odch/a/163/JFJK7AH349LAV9BYR7802KIA/output.pdf","https://hack.opendata.ch/project/1093","https://optifoodgame.ch/","https://hack.opendata.ch/project/1093","","","The population is eating a more informed diet so that human and animal health is promoted and the impact on the environment is minimised. The challenge was making complex interrelationships simple in the format of a game, as input for the development of the next phase of the nutrition strategy and the FSVO's innovation programme.","2024-05-22T10:15","2024-05-23T19:15","","https://showcase.opendata.ch/event/3","Community Showcase 2024","3","Public Sector","{""total"": 4, ""updates"": 3, ""commits"": 0, ""during"": 0, ""people"": 0, ""sizepitch"": 331, ""sizetotal"": 6466}","**[https://www.optifoodgame.ch](https://www.optifoodgame.ch) \| [Google Presentation](https://docs.google.com/presentation/d/1MSrNg86h5PSrYLKAnOiDD7owKjWFNJJN_YlIZ_QHhYI/edit?usp=sharing)**
+
+<br>
+<br>
+<br>
+**Optimale Ernährung für die Zukunft: Gesund und nachhaltig**
+
+### Ernährung, Gesundheit, Klima, Tierwohl
+
+Wir sind, was wir essen! Trotzdem wissen wir wenig darüber, woher unsere Lebensmittel kommen, wie diese in der Schweiz produziert werden und was die Lebensmittelproduktion für Auswirkungen auf die Umwelt und das Tierwohl hat. Zudem ist eine ausgewogene Ernährung ein wichtiger Faktor für einen gesunden Lebensstil. Genau hier setzt die OptiFood-Challenge an. Wir wollen Transparenz schaffen und für die Auswirkungen unseres Essverhaltens auf Gesundheit, Umwelt, Klima und Tierwohl sensibilisieren. Frei nach dem Motto «Geniessen, gesund bleiben, die Umwelt schonen und das Tierwohl fördern».
+
+Ziel der Challenge ist es, das Bewusstsein für die Auswirkungen des Lebensmittelkonsums in der Schweiz zu schärfen, sowohl für die negativen als auch für die positiven Aspekte auf Umwelt, Landwirtschaft, Tierwohl, Wirtschaft und andere Bereiche. Mögliche Fragestellungen könnten sein:
+
+* Wie ernährt sich die Schweiz heute? Wie wird sie sich in Zukunft ernähren?
+* Wie viel Fläche braucht die Nahrungsmittelproduktion in der Schweiz? Wie hängt dies mit dem Tierwohl zusammen?
+* Wie würde sich die Umstellung der Ernährungspyramide auf eine fleischarme oder fleischlose Ernährung auf den Flächenbedarf der Landwirtschaft und die Umwelt auswirken?
+* Wie deckt die Schweiz in Zukunft ihren Bedarf an Nährstoffen?
+
+Ein möglicher Ansatz könnte die Entwicklung einer spielerischen Web-Anwendung (Gamification) sein, um eine breite Öffentlichkeit, Schulen und Bildungseinrichtungen anzusprechen und für das Thema zu sensibilisieren. Das Spiel vernetzt Freunde und Bekannte, um gemeinsam spielerisch mehr über das Thema zu erfahren.
+
+Die Challenge fördert die Zusammenarbeit und den Wissensaustausch, um die Schweizer Bevölkerung in die Diskussion und Reflexion über ihren Lebensmittelkonsum einzubeziehen und positive Veränderungen zu bewirken. Ziel des Hackathons ist es, innovative Lösungen zu entwickeln, die das Bewusstsein für die Auswirkungen des Lebensmittelkonsums schärfen.
+
+Durch die Zusammenführung von Daten aus dem Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV), dem Bundesamt für Landwirtschaft (BLW) und anderen Quellen, möchten wir das Wissen verschiedener Stellen vernetzen.
+
+### Ressourcen
+
+* [Lebensmittelkonsum in der Schweiz (admin.ch)](https://www.blv.admin.ch/blv/de/home/lebensmittel-und-ernaehrung/ernaehrung/menuCH/menuch-lebensmittelkonsum-schweiz.html#carousel-slideshow-lb1703042784401)
+* [Home - The Swiss Food Composition Database (naehrwertdaten.ch)](https://naehrwertdaten.ch/de/)
+* [Karte :: Landw. Bewirtschaftung: Nutzungsflächen :: Geodienste](https://geodienste.ch/services/lwb_nutzungsflaechen?locale=de)
+* [Agrarbericht 2023](https://www.agrarbericht.ch/de)
+* [Datenportal Agrar- und Lebensmittelmärkte (agrarmarktdaten.ch)](https://www.agrarmarktdaten.ch/)
+* [Üblicher (=chronischer) Lebensmittelkonsum - Gesamtbevölkerung](https://www.blv.admin.ch/dam/blv/de/dokumente/das-blv/auftrag/forschung/konsummengen-gesamtbevoelkerung.xlsx.download.xlsx/menuCH_Konsummengen_Gesamtbev%C3%B6lkerung_N_2057%20(1).xlsx)
+* [ Üblicher (= chronischer) Lebensmittelkonsum – Konsumierende](https://www.blv.admin.ch/dam/blv/de/dokumente/das-blv/auftrag/forschung/konsummengen-nur-konsumenten.xlsx.download.xlsx/menuCH_Konsummengen_nur_Konsumenten_N_2057.xlsx)
+* [Einmaliger (= akuter) Lebensmittelkonsum – Gesamtbevölkerung](https://www.blv.admin.ch/dam/blv/de/dokumente/das-blv/auftrag/forschung/konsummengen-gesamtbevoelkerung-n4142.xlsx.download.xlsx/menuCH_Konsummengen_Gesamtbev%C3%B6lkerung_N_4142.xlsx)
+* [Einmaliger (= akuter) Lebensmittelkonsum – Konsumierende](https://www.blv.admin.ch/dam/blv/de/dokumente/das-blv/auftrag/forschung/konsummengen-nur-konsumenten-n4142.xlsx.download.xlsx/menuCH_Konsummengen_nur_Konsumenten_N_4142.xlsx)
+* [Portiongrössen pro Tag](https://www.blv.admin.ch/dam/blv/de/dokumente/das-blv/auftrag/forschung/portionsgroessen-pro-tag-menuch.xlsx.download.xlsx/menuCH_Portionsgr%C3%B6ssen_pro_Tag.xlsx)
+* [Portiongrössen pro Mahlzeit](https://www.blv.admin.ch/dam/blv/de/dokumente/das-blv/auftrag/forschung/portionsgroessen-pro-mahlzeit-menuch.xlsx.download.xlsx/menuCH_Portionsgr%C3%B6ssen_pro_Mahlzeit.xlsx)
+* [Portiongrössen nach Sprachregion](https://www.blv.admin.ch/dam/blv/de/dokumente/das-blv/auftrag/forschung/portionsgroessen-nach-sprachregion-menuch.xlsx.download.xlsx/menuCH_Portionsgr%C3%B6ssen_nach_Sprachregion.xlsx)
+
+### Inspiration
+
+* https://www.youdontknowafrica.com
+* https://www.geoguessr.com
+
+### Goal
+
+Innovative Ideen entwickeln, auf die wir im Bundesamt selber nicht kommen würden
+
+### Outcomes
+
+Die Bevölkerung ernährt sich informierter, so dass die Gesundheit von Mensch und Tier gefördert und die Auswirkung auf die Umwelt minimiert wird.
+
+### Solutions
+
+Klassisches Bundesvorgehen mit einer Ernährungsstrategie etc. Zusammenarbeit mit Branche, klassische Sensibilisierung mit umfangreichen Dokumenten.
+
+### Restrictions
+
+Komplexe Zusammenhänge einfach für ein Game aufbereiten ist eine Herausforderung.
+
+### Verwendung
+
+Input für die Erarbeitung der nächsten Phase der Ernährungsstrategie. Input für das Innovationsprogramm des BLV.
+
+### Github-Repo
+
+Es gibt bereits ein Repo für die Ergebnisse dieser Challenge:
+[https://github.com/BLV-OSAV-USAV/GovTech-Hackathon-2024-OptiFood-Game](https://github.com/BLV-OSAV-USAV/GovTech-Hackathon-2024-OptiFood-Game)
+
+### Publikation
+
+Domain ist reserviert und Hosting steht bereit für das Game:
+
+* https://optifoodgame.ch
+
+### Organisation
+
+Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV)
+
+Bundesamt für Landwirtschaft (BLW)
+
+![nutriscorehead.jpg](https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/public/1867/P7FJL7R1QO5XGEWQ3646WPIB/nutriscorehead.jpg)","The population is eating a more informed diet so that human and animal health is promoted and the impact on the environment is minimised. The challenge was making complex interrelationships simple in the format of a game, as input for the development of the next phase of the nutrition strategy and the FSVO's innovation programme."
+"51","","https://showcase.opendata.ch/project/51","Schneereserven der Schweizer Stauanlagen","23","Project","","0","False","True","5","GovTech Hackathon 2024","","https://raw.githubusercontent.com/SFOE-Hackathons/GovTechHackathon2024-Schneereserven/main/bilder/grono_märz_3d.png","https://github.com/SFOE-Hackathons/GovTechHackathon2024-Schneereserven","https://s3.dribdat.cc/odch/a/1795/08N7DWLB8M0CZSHTYRNUSPDL/Challenge13_pitch_final.pdf","https://hack.opendata.ch/project/1104","https://github.com/SFOE-Hackathons/GovTechHackathon2024-Schneereserven/releases","https://github.com/SFOE-Hackathons/GovTechHackathon2024-Schneereserven/issues","","","(Snow reserves of the Swiss dams) In addition to the filling levels of the reservoirs, the snow reserves above the reservoirs would also be known. This project from a BFE challenge shows how to provide more information for assessing the security of supply. Easy access to this data also offers added value for research, politics, authorities and the electricity industry.","2024-05-22T09:56","2024-05-22T12:44","","https://showcase.opendata.ch/event/3","Community Showcase 2024","3","Public Sector","{""total"": 2, ""updates"": 1, ""commits"": 0, ""during"": 0, ""people"": 0, ""sizepitch"": 371, ""sizetotal"": 2387}","Neben den Füllständen der Speicherseen sind die Schneemengen über den Speicherseen ein guter Indikator für die verfügbaren Energiereserven und damit für die Versorgungssicherheit. Wir wollen diese Informationen über Daten zugänglich machen und auf dem Energiedashboard publizieren.
+
+### Ressourcen
+
+Für die Challenge verwenden wir:
+
+* [Standorte der Stauanlagen](https://opendata.swiss/de/dataset/stauanlagen-unter-bundesaufsicht)
+* Einzugsgebiete von Gewässern (Geodatenraum UVEK)
+* Schneewasseräquivalent Raster basierend auf Satellitenbildern und Bodenbeobachtungen. ([Snow Water - COSMOS | ExoLabs (gitbook.io)](https://exolabs-ch.gitbook.io/cosmos/snow-water))
+
+### Ziel
+
+Das Ziel ist eine Machbarkeitsprüfung mit ein paar Anlagen zu machen. Falls erfolgreich kann die Methodik auf alle Anlagen skaliert werden und mittelfristig die Daten als OGD und im Energiedashboard publiziert werden (in welcher Aggregation ist noch abzuklären).
+
+### Resultate
+
+Neben den Füllständen der Speicherseen wären auch die Schneereserven oberhalb der Speicherseen bekannt. Damit stehen mehr Informationen für die Beurteilung der Versorgungssicherheit zur Verfügung. Der einfache Zugang zu diesen Daten bietet zudem einen Mehrwert für Forschung, Politik, Behörden und Stromwirtschaft.
+
+### Ansatz
+
+Die Standorte der Speicherseen liegen als OGD vor. Die Einzugsgebiete der Speicherseen liegen als Polygone im UVEK Geodatenraum vor (1 Polygon pro Stauanlage).
+Die Schneewasseräquivalente liegen als 20mx20m Raster vor. Für jede Rasterzelle gibt es einen Wert. Die Idee ist nun alle Werte innerhalb des Polygons zu addieren. Das ergibt das Schneewasseräquivalent innerhalb eines Polygons.
+
+### Verwendung
+
+Falls der Ansatz funktioniert, werden wir die Methodik auf alle Anlagen skalieren und die Daten als Geodaten und im Energiedashboard publizieren.
+
+### Organisation
+
+Bundesamt für Energie BFE
+
+### Repo
+
+https://github.com/SFOE-Hackathons/GovTechHackathon2024-Schneereserven","(Snow reserves of the Swiss dams) In addition to the filling levels of the reservoirs, the snow reserves above the reservoirs would also be known. This project from a BFE challenge shows how to provide more information for assessing the security of supply. Easy access to this data also offers added value for research, politics, authorities and the electricity industry."
+"55","","https://showcase.opendata.ch/project/55","Exploring the Federal Supreme Court","23","Project","","0","False","True","5","Open Legal Lab 2024","","https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/reciprocal/1/32ZDP46C99LM1R64FZD2J9V3/Screenshot_20240522_at_173726_Bubbles.png","https://github.com/fgeeri/scd-bubbles","https://s3.dribdat.cc/oll/b/172/IKMJZISS9VECHXZUG862E2WC/slide_scd_bubbles_with_hyperlink.pdf","https://challenges.openlegallab.ch/project/103","https://www.2881.ch/bubbles/index.html","https://challenges.openlegallab.ch/project/103#team-md","","","Discover the work of the supreme court in the form 120’000 bubbles! The Swiss Federal Supreme Court Dataset (SCD) is the largest open-access dataset on Swiss judgments, with 31 variables documenting all judgments between 2007 and 2023. In this project, we explore new ways to enable anyone to interact with this rich data. Each bubble represents a decision, and you can go back and time, speed up the animation, and get a better feel for the dataset with a creative tool.","2024-05-22T15:35","2024-05-23T20:53","","https://showcase.opendata.ch/event/3","Community Showcase 2024","5","Open Legal","{""total"": 3, ""updates"": 2, ""commits"": 0, ""during"": 0, ""people"": 0, ""sizepitch"": 471, ""sizetotal"": 2112}","https://bubbles.legaldata.ch/
+
+**The Data:** The **[Swiss Federal Supreme Court Dataset (SCD)](https://zenodo.org/record/7793043)** is the largest open-access dataset on Swiss judgments, with 31 variables documenting all 120,368 Federal Supreme Court judgments between 2007 and 2023.
+🔥 It is available in its **fifth edition** already, and now also includes the raw text of all judgments.
+
+With this challenge, we want to **explore new ways to enable anyone to interact with this rich data**, even if they have zero prior programming knowledge.
+
+**At [last year's](https://challenges.openlegallab.ch/project/82) Open Legal Lab**, we designed and released the [SCD Viewer](https://scdv.legaldata.ch/), a [Shiny](https://shiny.posit.co/) webapp which lets users interact with the data on Swiss Federal Supreme Court judgments and run simple analyses themselves.
+
+**Can we go further this year?** What new and exciting ways to interact with this data will we come up with?
+
+* ✨ Automatic monthly recap of the latest jurisprudence?
+* ⚡️ Dashboard that highlights interesting new trends in the data?
+* 💫 Upgrade the SCD Viewer to be 10x better and 100x faster?
+* 🌟 Something else entirely? It's up to you!
+
+##### 🎯 Goal of the challenge
+
+> ***Enable new ways to interact with the Federal Supreme Court jurisprudence documented in the SCD.***
+
+##### 🚀 Roadmap
+
+* [x] Collect data
+* [x] Define user journey
+* [x] Create and deploy product
+* [x] Prepare presentation
+
+##### 🏁 Final presentation
+
+📎 [slide scd bubbles.pdf](https://s3.dribdat.cc/oll/b/171/7004BTGM18I7EEL7E4NJWK1W/slide_scd_bubbles.pdf)","Discover the work of the supreme court in the form 120’000 bubbles! The Swiss Federal Supreme Court Dataset (SCD) is the largest open-access dataset on Swiss judgments, with 31 variables documenting all judgments between 2007 and 2023. In this project, we explore new ways to enable anyone to interact with this rich data. Each bubble represents a decision, and you can go back and time, speed up the animation, and get a better feel for the dataset with a creative tool."
+"57","","https://showcase.opendata.ch/project/57","Building Energy Insights","22","Project","","0","False","True","5","Energy Data Hackdays 2023","","https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/reciprocal/1/MZH31YFW7YEAF9ZKFBW04IR5/Screenshot_from_20240522_175338.png","https://gitlab.com/ssgw/","https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/openenergydata/3/PFQSK9EH95ND3B8XH3FQDAW4/challenge5_building_energy_insights.pptx2.pdf","","","https://hack.energy.opendata.ch/project/4","","","Create a user-friendly tool to empower building owners with personalised insights for early and informed energy planning decisions.","2024-05-22T15:52","2024-05-22T15:53","","https://showcase.opendata.ch/event/3","Community Showcase 2024","1","Energy Data","{""total"": 1, ""updates"": 1, ""commits"": 0, ""during"": 0, ""people"": 0, ""sizepitch"": 131, ""sizetotal"": 2901}","<p>Create a user-friendly tool to offer building owners personalised insights for early and informed energy planning decisions.</p>
+
+<p>Open Data sources with APIs have been identified, as well as possible User Outputs and Web Design (Prototypes).</p>
+
+<ul>
+<li>Define the Information that should be displayed to the users according to the available raw data</li>
+<li>Define the logic necessary to go from the raw Open Data to the result information that will be displayed to the users</li>
+<li>Prepare the data according to the defined logic to be used as a source table for the tool landing page</li>
+<li>Web Design: analyse the already available prototypes and define how the user interface should look like for a user-friendly use of the platform</li>
+<li>Customer Journey Design: this landing page provides information to the users about their building. It is the first step of the process. Define the Customer Journey the users should be guided through in order to go from the first expression of interest to making them actual clients</li>
+<li>Web Development: Develop the Webapp. Available Tool: ArcGIS Enterprise Experience Builder (no-Code Tool). Available start code in Python, HTML, CSS. Any other Tool or Language however also possible.</li>
+</ul>
+
+<p><b>Context</b>
+The city of St.Gallen and the OST Fachhochschule have been working together in an Innosuisse project, that found out that a lot of building owners are overwhelmed with energy issues. There are usually not well informed and only act when they have to, for example when the heating system is breaking down. Without planning ahead, the replacing technology will often be a fossil heating system (unless a local legal prohibition has already come into force). To avoid this, we want to provide building owners with personalized information about their building.</p>
+
+<p>Challenge Miro Board with Data, APIs and Design Prototypes: <a href=""https://miro.com/app/board/uXjVMvoVFIk=/?share_link_id=101430938955"">miro.com</a></p>
+
+<p>Repo: <a href=""https://gitlab.com/ssgw/"">https://gitlab.com/ssgw/</a></p>
+
+<p>Live Plattform: <a href=""https://energyhackday.mobiparking.ch/"">https://energyhackday.mobiparking.ch/</a></p>
+
+<p>Challenge Owner: SGSW
+Clara Esteve, Ramon Schmid, Eren Baglar</p>
+
+<p><img src=""https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/openenergydata/7/AEV3XS93AL072C3UOWVMDEIR/EDH_2023.png"" alt=""EDH 2023.png""></p>
+
+<p><img src=""https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/openenergydata/7/TITOHFD5NAZQU8VQ0AMR2XUU/2023091516_Energy_Data_Hackdays__Building_Energy_Insights__Vorgehen_1.jpg"" alt=""2023091516 Energy Data Hackdays  Building Energy Insights  Vorgehen 1.jpg""></p>
+","Create a user-friendly tool to empower building owners with personalised insights for early and informed energy planning decisions."
+"58","","https://showcase.opendata.ch/project/58","Preferred choice of eCommerce Delivery","22","Project","loleg","0","False","True","5","UPU Postal Data Hackathon 2023","","https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/upu/1/2NMR2VFLEQC758WPCET4TPLB/Screenshot_from_20230624_152453.jpg","","https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/upu/1/IC4IF4N3WR52URNSC86NPGZW/Hackathon_eCommerce_Final.pdf","https://dribdat.hackathon.post/project/2","","https://dribdat.hackathon.post/project/2","","","What can UPU or post offices offer more than other parties to become the preferred choice of eCommerce Delivery?
+
+https://www.youtube.com/watch?v=VbLxEb380QY
+
+_Aftermovie of the first UPU Postal Data Hackathon_","2024-05-22T15:55","2024-05-27T08:54","loleg","https://showcase.opendata.ch/event/3","Community Showcase 2024","3","Public Sector","{""total"": 2, ""updates"": 1, ""commits"": 0, ""during"": 0, ""people"": 0, ""sizepitch"": 214, ""sizetotal"": 1902}","# Challenge
+
+""We know e-commerce / cross border is growing. But based on the recent statistics, UPU is not gaining any market share, but rather losing in this space. a) What can UPU Or post offices do to present an attractive and competitive option for e-commerce marketplaces to gain market share with e-commerce platforms? b) How can UPU make it easy for others to integrate by providing an Interoperable standards-based setup for various players in e-commerce or even 3PL plsyrtd - value chain to collaborate? c) Will adding more transparency in fees, VAT collection and disbursement, pricing, logistics, and convenient Payment help? d) How can post-office offer verified Digital identity and Verified addresses to add value? e) Any other ways to boost revenue of Designated operators or UPU?""
+
+Problem: Mail volume is reducing since emails have become prominent. Ecommerce is growing but UPU /Postal network is not getting enough volumes to deliver. 
+
+For: The biggest impact is for UPU and Designated Operators. 
+
+Goal: Find unique ways how UPU & Postal operators increase their share of e-commerce delivery and find ways of alternative revenue
+
+Challenge Owner: 	
+Santosh Gopal	
+
+📎 [Post offices as prefered choice of Ecomerce Delivery.pdf](https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/upu/17/2285NMEALTBFDT6LXCFOHH9B/Post_offices_as_prefered_choice_of_Ecomerce_Delivery.pdf)
+
+# Brainstorming
+
+![ Photo ](https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/upu/1/F0KNS76MS6J87ZZDM9S8W8GF/IMG_20230624_120743_HD.jpg)
+
+For more background on our design process, scroll down to the README.","What can UPU or post offices offer more than other parties to become the preferred choice of eCommerce Delivery?
+
+https://www.youtube.com/watch?v=VbLxEb380QY
+
+_Aftermovie of the first UPU Postal Data Hackathon_"
+"60","","https://showcase.opendata.ch/project/60","Tracking down colonial and racist traces in Geneva","22","Project","","0","False","True","5","GLAMhack 2023","","https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/glamhack/11532/55J9QCZFAT9ICBPRWXFMUI0Q/Capture.JPG","","https://drive.google.com/file/d/1mhfl22MhAQ6f1WnMPMIvSRMsgojYmyf3/preview","https://hack.glam.opendata.ch/project/180","https://traces.colonialgeneva.ch/","https://hack.glam.opendata.ch/project/180","","","An app to visualize the ""Time, Space, History"" report in map form in order to enable the residents of Geneva to re-consider the city's urban space from the perspective of its colonial and racist heritage, making the data accessible to people who are unfamiliar with this theme in urban space.","2024-05-22T15:59","2024-05-22T16:01","","https://showcase.opendata.ch/event/3","Community Showcase 2024","4","Culture Data","{""total"": 2, ""updates"": 1, ""commits"": 0, ""during"": 0, ""people"": 0, ""sizepitch"": 292, ""sizetotal"": 3484}","Live project: https://traces.colonialgeneva.ch/
+Video walkthrough: https://vimeo.com/872600339
+Oleg's blog post: https://blog.datalets.ch/098/
+
+---
+
+# Challenge
+
+DATASETS:
+Database derived from the report “Temps, espaces et histoires; Monuments et héritage raciste et colonial dans l’espace public genevois : état des lieux historique” by Mohamed Mahmoud Mohamedou et Davide Rodogno
+
+EXPLICATION: The idea is to create an application to visualize the ""Time, Space, History"" report in map form in order to make its content accessible to a wider audience. The aim of this project is to enable the residents of Geneva to re-consider the city's urban space from the perspective of its colonial and racist heritage. This application is an essential tool for making the data in the report accessible to people who are unfamiliar with this theme in urban space.
+
+The challenge is to make the data attractive and arouse the public's curiosity and desire to consult it. Visuals, illustrations and user-friendliness are central to the success of this application.
+
+Each monument or street mentioned in the report would be represented by a dot on the map of Geneva. It would then be possible to zoom in on the map to discover a particular area. When you click on a monument or street name, a historical note opens with the text of the report and historical information.
+
+In the report, the monuments are classified according to different keywords. It would be possible to reflect these categories using a colour code on the map, or to allow monuments to be 'sorted' by keyword.
+
+We'd like to add images of the different locations to the historical notices. We could perhaps use Wikipedia/Wikimedia images for that.
+
+This map will be shown on a touch station in the central area of the next temporary exhibition at MEG ""Remembering. Geneva in the colonial world"" (03.05.2024-01.05.2025). The map would also be accessible online on the colonialgeneva.ch digital platform (the digital version of the physical exhibition) and on the City of Geneva project website ""Monuments and racist heritage in public areas"" (www.geneve.ch/heritage-raciste)
+
+INSPIRATION:
+The website “bern-kolonial”: https://bern-kolonial.ch/wilkommen
+
+SOURCES:
+Mohamed Mahmoud Mohamedou et Davide Rodogno
+Temps, espaces et histoires
+Monuments et héritage raciste et colonial dans l’espace public genevois :
+état des lieux historique
+
+CONTACT:
+Marina Berazategui (MEG)
+
+[Click here to access the report in pdf format](https://www.geneve.ch/sites/default/files/2022-03/monuments-heritage-raciste-colonial-espace-public-etude-2022-ville-geneve.pdf)
+
+[Click here to access the report in word format](https://docs.google.com/document/d/1eAqngqAvWnVprocT6269sq79AbbBuhXf/edit?usp=sharing&ouid=113831577923411545324&rtpof=true&sd=true)
+
+[Click here to access the excel database extracted from the report](https://docs.google.com/spreadsheets/d/1DVC6uX653xEKe2wX5WBo5dA6BJLNQ2HWlaSAGkNCSso/edit#gid=0)
+
+Monuments et héritage raciste dans l’espace public : [www.geneve.ch/heritage-raciste](www.geneve.ch/heritage-raciste)
+
+Slack: https://glamhackchworkspace.slack.com/archives/C05UQRXD5FT","An app to visualize the ""Time, Space, History"" report in map form in order to enable the residents of Geneva to re-consider the city's urban space from the perspective of its colonial and racist heritage, making the data accessible to people who are unfamiliar with this theme in urban space."
+"61","","https://showcase.opendata.ch/project/61","parler Stadtparlament","15","Project","","0","False","True","5","Open Data Hack St.Gallen","","https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/reciprocal/1/EE9B7PT240CPL18WPA3OGBV5/Screenshot_20240523_at_115124_https___parlerment.azurewebsites.net.png","https://github.com/sstratemeier/stadtparlaments-dashboard","https://youtu.be/fUbmHfNOtno","https://github.com/sstratemeier/stadtparlaments-dashboard","https://parlerment.azurewebsites.net/","https://hack.opendata.ch/project/1076","","","Making the City of St.Gallen's Open Data resources more accessible to the wider public with data visualizations, GPT-supported insights, and an unusually entertaining and thought-provoking video pitch.","2024-05-23T09:49","2024-05-23T14:56","","https://showcase.opendata.ch/event/3","Community Showcase 2024","3","Public Sector","{""total"": 2, ""updates"": 1, ""commits"": 0, ""during"": 0, ""people"": 0, ""sizepitch"": 201, ""sizetotal"": 282}","
+![](https://parlerment.azurewebsites.net/Dashboard.png)","Making the City of St.Gallen's Open Data resources more accessible to the wider public with data visualizations, GPT-supported insights, and an unusually entertaining and thought-provoking video pitch."
+"64","","https://showcase.opendata.ch/project/64","Hackathons Refugees Teams","0","Challenge","","0","True","True","0","Bringing high-skill refugees and jobs together through diverse hackathon teams","#hackathons4humans","https://s3.dribdat.cc/h4sg/2024/16/P986X90RL1ICZTXOWESECH6S/image.png","","https://s3.dribdat.cc/h4sg/2024/16/NBNFS53R4KSEYB5RXVGYOAQG/slide4H4SG.pptx.pdf","https://bd.hack4socialgood.ch/project/98","","https://www.bfh.ch/en/research/research-projects/2024-348-257-385/","","","![](https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/reciprocal/1/MQZT6G6PMSFIGIH6G4M2UCAL/IMG_20240524_104444.jpg) ","2024-05-28T08:48","2024-05-28T08:50","","https://showcase.opendata.ch/event/3","Community Showcase 2024","4","Culture Data","{""total"": 0, ""updates"": 0, ""commits"": 0, ""during"": 0, ""people"": 0, ""sizepitch"": 138, ""sizetotal"": 2187}","*✨ This new project was announced at Hack4SocialGood 2024 - look forward to a challenge from us in 2025!*
+
+***
+
+**Hackathons are multi-day events where digital prototypes are developed. In a new research project, we will test whether hackathons can help high-skill refugees find better jobs and whether deferred acceptance algorithms can generate diverse, stable, and productive teams.**
+Many high-skill occupations currently have low unemployment and high vacancy rates, with the government forecasting that migration is necessary to fill vacancies. At the same time, high-skill refugees generally find jobs well below their qualifications for multiple reasons, including labor market integration programs that target lower skill jobs and social networks that connect them to jobs within their migrant communities. One potential way to address these issues is to encourage high-skill refugees to attend hackathon events where they can directly demonstrate their skills to potential future colleagues and employers.
+
+**At the same time, larger hackathons face the challenge of how to form diverse teams—a critical building block given evidence that diverse teams are more effective—and more specifically hackathon projects often need a specific skill mix.**
+While algorithms are already used for team formation in other contexts, these ignore participant characteristics and preferences, likely leading to participant dissatisfaction and less productive teams. Team formation algorithms that consider characteristics and preferences could yield diverse, stable, and productive teams. Such algorithms could be used not only at hackathons, but also in education and the corporate sector—really any context in which diverse and stable teams are important.
+
+[Read more ...](https://www.bfh.ch/en/research/research-projects/2024-348-257-385/)
+
+<b>Prof. Dr. Debra Hevenstone</b><br>
+Berner Fachhochschule <br>
+School of Social Work <br>
+Abteilung Soziale Systeme","![](https://bucketeer-036aa605-c047-4623-8610-f1764b90cf98.s3.amazonaws.com/reciprocal/1/MQZT6G6PMSFIGIH6G4M2UCAL/IMG_20240524_104444.jpg) "
+"62","","https://showcase.opendata.ch/project/62","Antikythera Mechanism","0","Challenge","","0","True","True","0","GLAMhack 2024","","","","https://www.thomasweibel.ch/anticythera","https://hack.glam.opendata.ch/project/207","","https://www.thomasweibel.ch","","","In 1900, a crew of sponge divers discovered the wreck of a Roman-Greco vessel that had sunk off the coast of the Greek island Antikythera around 60 BC. Numerous artifacts, such as bronze and marble statues, amphorae, pottery, glassware, jewelry and coins, were retrieved in 1901. One of the objects was an unspectacular lump of corroded bronze that proved to be the remains of the world's first known analog computer built in Ancient Greece. The so-called Antikythera Mechanism was a hand-powered mod...","2024-05-24T12:03","2024-05-24T12:04","","https://showcase.opendata.ch/event/3","Community Showcase 2024","4","Culture Data","{""total"": 2, ""updates"": 1, ""commits"": 0, ""during"": 2, ""people"": 0, ""sizepitch"": 0, ""sizetotal"": 1000}","In 1900, a crew of sponge divers discovered the wreck of a Roman-Greco vessel that had sunk off the coast of the Greek island Antikythera around 60 BC. Numerous artifacts, such as bronze and marble statues, amphorae, pottery, glassware, jewelry and coins, were retrieved in 1901. One of the objects was an unspectacular lump of corroded bronze that proved to be the remains of the world's first known analog computer built in Ancient Greece. The so-called Antikythera Mechanism was a hand-powered model of the solar system used to calculate astronomical cycles and to predict eclipses.
+
+The [Antikythera Mechanism project](https://www.thomasweibel.ch/?post=mechanismus-von-antikythera) aims at providing a scientifically and mechanically accurate VR model, which will be downloadable in `.glb` Format (Public Domain).
+
+**Join us at [GLAMhack 2024](https://opendata.ch/de/events/glamhack24/) and help us to make new creative explorations of these and similar open culture resources.**",""
+"63","","https://showcase.opendata.ch/project/63","Geospatial data for paddle sports in CH","0","Challenge","loleg","0","True","False","0","Swiss Paddel Buch started following a sea kayaking roundtable meeting organised by Swiss Canoe in June 2021, and has continued under the Swiss Canoe Sea Kayaking Committee.The main goal of this project is to provide a central, nation-wide store of information for all types of paddlers in Switzerland, to enable members of the paddle sports community to better plan their trips and explore new waterways.","","https://avatars.githubusercontent.com/u/3534465?v=4","https://github.com/binghamchris/paddelbuch","https://www.paddelbuch.ch","https://github.com/binghamchris/paddelbuch","https://github.com/binghamchris/paddelbuch/releases","https://github.com/binghamchris/paddelbuch/issues","","","# Paddel Buch
+
+PaddelBuch.ch is a website which provides displays the data published in the public database of Swiss paddle sports information visually on a range of maps.
+
+More information about the technological evolution of the project can be found in the [Paddel Buch blog series](https://cloudypandas.ch/series/paddel-buch/) on Cloudy Pandas.
+
+## Project Origin
+Paddel Buch started following a sea kayaking roundtable meeting organised by Swiss Canoe in June 2021.
+
+## Project Goals
+Th...","2024-05-24T12:14","2024-05-24T12:15","loleg","https://showcase.opendata.ch/event/3","Community Showcase 2024","","","{""total"": 3, ""updates"": 1, ""commits"": 0, ""during"": 3, ""people"": 0, ""sizepitch"": 0, ""sizetotal"": 1670}","# Paddel Buch
+
+PaddelBuch.ch is a website which provides displays the data published in the public database of Swiss paddle sports information visually on a range of maps.
+
+More information about the technological evolution of the project can be found in the [Paddel Buch blog series](https://cloudypandas.ch/series/paddel-buch/) on Cloudy Pandas.
+
+## Project Origin
+Paddel Buch started following a sea kayaking roundtable meeting organised by Swiss Canoe in June 2021.
+
+## Project Goals
+The main goal of this project is to provide a central, nation-wide store of information for all types of paddlers in Switzerland, to enable members of the paddle sports community to better plan their trips and explore new waterways.
+
+## License
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+Full license details can be found here: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",""
